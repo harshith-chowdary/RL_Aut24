@@ -1,0 +1,240 @@
+ [~/RL/Project 1]
+  harshith  python3 main.py
+Enter target position (x, y): 3 5
+Enter target orientation (N, NE, E, SE, S, SW, W, NW): NE
+Enter number of tests: 4
+Enter start position (x, y): 49 49
+Enter start orientation (N, NE, E, SE, S, SW, W, NW): SW
+Enter start position (x, y): 49 -49   
+Enter start orientation (N, NE, E, SE, S, SW, W, NW): NW
+Enter start position (x, y): -49 49
+Enter start orientation (N, NE, E, SE, S, SW, W, NW): SE
+Enter start position (x, y): -49 -49
+Enter start orientation (N, NE, E, SE, S, SW, W, NW): NE
+
+Policy loaded from file:  PI_policy_(3, 5, NE).json
+
+Start position:  (49, 49, 'SW')
+Move made:  straight 2  @  (49, 49, 'SW') ==> (47, 47, 'SW')
+Move made:  straight 3  @  (47, 47, 'SW') ==> (44, 44, 'SW')
+Move made:  straight 3  @  (44, 44, 'SW') ==> (41, 41, 'SW')
+Move made:  straight 3  @  (41, 41, 'SW') ==> (38, 38, 'SW')
+Move made:  straight 3  @  (38, 38, 'SW') ==> (35, 35, 'SW')
+Move made:  straight 3  @  (35, 35, 'SW') ==> (32, 32, 'SW')
+Move made:  straight 3  @  (32, 32, 'SW') ==> (29, 29, 'SW')
+Move made:  straight 3  @  (29, 29, 'SW') ==> (26, 26, 'SW')
+Move made:  straight 3  @  (26, 26, 'SW') ==> (23, 23, 'SW')
+Move made:  straight 3  @  (23, 23, 'SW') ==> (20, 20, 'SW')
+Move made:  straight 3  @  (20, 20, 'SW') ==> (17, 17, 'SW')
+Move made:  straight 3  @  (17, 17, 'SW') ==> (14, 14, 'SW')
+Move made:  straight 3  @  (14, 14, 'SW') ==> (11, 11, 'SW')
+Move made:  straight 3  @  (11, 11, 'SW') ==> (8, 8, 'SW')
+Move made:  left 3  @  (8, 8, 'SW') ==> (8, 5, 'S')
+Move made:  right 3  @  (8, 5, 'S') ==> (5, 2, 'SW')
+Move made:  right 2  @  (5, 2, 'SW') ==> (3, 2, 'W')
+Move made:  right 1  @  (3, 2, 'W') ==> (2, 3, 'NW')
+Move made:  right 1  @  (2, 3, 'NW') ==> (2, 4, 'N')
+Move made:  right 1  @  (2, 4, 'N') ==> (3, 5, 'NE')
+
+Target Reached in  20  steps!
+
+Start position:  (49, -49, 'NW')
+Move made:  straight 1  @  (49, -49, 'NW') ==> (48, -48, 'NW')
+Move made:  straight 3  @  (48, -48, 'NW') ==> (45, -45, 'NW')
+Move made:  straight 3  @  (45, -45, 'NW') ==> (42, -42, 'NW')
+Move made:  straight 3  @  (42, -42, 'NW') ==> (39, -39, 'NW')
+Move made:  straight 3  @  (39, -39, 'NW') ==> (36, -36, 'NW')
+Move made:  straight 3  @  (36, -36, 'NW') ==> (33, -33, 'NW')
+Move made:  straight 3  @  (33, -33, 'NW') ==> (30, -30, 'NW')
+Move made:  straight 3  @  (30, -30, 'NW') ==> (27, -27, 'NW')
+Move made:  straight 3  @  (27, -27, 'NW') ==> (24, -24, 'NW')
+Move made:  straight 3  @  (24, -24, 'NW') ==> (21, -21, 'NW')
+Move made:  straight 3  @  (21, -21, 'NW') ==> (18, -18, 'NW')
+Move made:  straight 3  @  (18, -18, 'NW') ==> (15, -15, 'NW')
+Move made:  straight 3  @  (15, -15, 'NW') ==> (12, -12, 'NW')
+Move made:  straight 3  @  (12, -12, 'NW') ==> (9, -9, 'NW')
+Move made:  straight 3  @  (9, -9, 'NW') ==> (6, -6, 'NW')
+Move made:  straight 3  @  (6, -6, 'NW') ==> (3, -3, 'NW')
+Move made:  straight 3  @  (3, -3, 'NW') ==> (0, 0, 'NW')
+Move made:  right 2  @  (0, 0, 'NW') ==> (0, 2, 'N')
+Move made:  right 3  @  (0, 2, 'N') ==> (3, 5, 'NE')
+
+Target Reached in  19  steps!
+
+Start position:  (-49, 49, 'SE')
+Move made:  straight 2  @  (-49, 49, 'SE') ==> (-47, 47, 'SE')
+Move made:  straight 3  @  (-47, 47, 'SE') ==> (-44, 44, 'SE')
+Move made:  straight 3  @  (-44, 44, 'SE') ==> (-41, 41, 'SE')
+Move made:  straight 3  @  (-41, 41, 'SE') ==> (-38, 38, 'SE')
+Move made:  straight 3  @  (-38, 38, 'SE') ==> (-35, 35, 'SE')
+Move made:  straight 3  @  (-35, 35, 'SE') ==> (-32, 32, 'SE')
+Move made:  straight 3  @  (-32, 32, 'SE') ==> (-29, 29, 'SE')
+Move made:  straight 3  @  (-29, 29, 'SE') ==> (-26, 26, 'SE')
+Move made:  straight 3  @  (-26, 26, 'SE') ==> (-23, 23, 'SE')
+Move made:  straight 3  @  (-23, 23, 'SE') ==> (-20, 20, 'SE')
+Move made:  straight 3  @  (-20, 20, 'SE') ==> (-17, 17, 'SE')
+Move made:  straight 3  @  (-17, 17, 'SE') ==> (-14, 14, 'SE')
+Move made:  straight 3  @  (-14, 14, 'SE') ==> (-11, 11, 'SE')
+Move made:  straight 3  @  (-11, 11, 'SE') ==> (-8, 8, 'SE')
+Move made:  straight 3  @  (-8, 8, 'SE') ==> (-5, 5, 'SE')
+Move made:  straight 3  @  (-5, 5, 'SE') ==> (-2, 2, 'SE')
+Move made:  left 2  @  (-2, 2, 'SE') ==> (0, 2, 'E')
+Move made:  left 3  @  (0, 2, 'E') ==> (3, 5, 'NE')
+
+Target Reached in  18  steps!
+
+Start position:  (-49, -49, 'NE')
+Move made:  straight 1  @  (-49, -49, 'NE') ==> (-48, -48, 'NE')
+Move made:  straight 3  @  (-48, -48, 'NE') ==> (-45, -45, 'NE')
+Move made:  straight 3  @  (-45, -45, 'NE') ==> (-42, -42, 'NE')
+Move made:  straight 3  @  (-42, -42, 'NE') ==> (-39, -39, 'NE')
+Move made:  straight 3  @  (-39, -39, 'NE') ==> (-36, -36, 'NE')
+Move made:  straight 3  @  (-36, -36, 'NE') ==> (-33, -33, 'NE')
+Move made:  straight 3  @  (-33, -33, 'NE') ==> (-30, -30, 'NE')
+Move made:  straight 3  @  (-30, -30, 'NE') ==> (-27, -27, 'NE')
+Move made:  straight 3  @  (-27, -27, 'NE') ==> (-24, -24, 'NE')
+Move made:  straight 3  @  (-24, -24, 'NE') ==> (-21, -21, 'NE')
+Move made:  straight 3  @  (-21, -21, 'NE') ==> (-18, -18, 'NE')
+Move made:  straight 3  @  (-18, -18, 'NE') ==> (-15, -15, 'NE')
+Move made:  straight 3  @  (-15, -15, 'NE') ==> (-12, -12, 'NE')
+Move made:  straight 3  @  (-12, -12, 'NE') ==> (-9, -9, 'NE')
+Move made:  straight 3  @  (-9, -9, 'NE') ==> (-6, -6, 'NE')
+Move made:  straight 3  @  (-6, -6, 'NE') ==> (-3, -3, 'NE')
+Move made:  straight 3  @  (-3, -3, 'NE') ==> (0, 0, 'NE')
+Move made:  left 2  @  (0, 0, 'NE') ==> (0, 2, 'N')
+Move made:  right 3  @  (0, 2, 'N') ==> (3, 5, 'NE')
+
+Target Reached in  19  steps!
+
+
+Policy loaded from file:  MCC_policy_(3, 5, NE).json
+
+Start position:  (-49, -49, 'N')
+Move made:  straight 1  @  (49, 49, 'SW') ==> (48, 48, 'SW')
+Move made:  straight 2  @  (48, 48, 'SW') ==> (46, 46, 'SW')
+Move made:  straight 2  @  (46, 46, 'SW') ==> (44, 44, 'SW')
+Move made:  straight 2  @  (44, 44, 'SW') ==> (42, 42, 'SW')
+Move made:  straight 3  @  (42, 42, 'SW') ==> (39, 39, 'SW')
+Move made:  straight 2  @  (39, 39, 'SW') ==> (37, 37, 'SW')
+Move made:  left 3  @  (37, 37, 'SW') ==> (37, 34, 'S')
+Move made:  straight 2  @  (37, 34, 'S') ==> (37, 32, 'S')
+Move made:  right 2  @  (37, 32, 'S') ==> (35, 30, 'SW')
+Move made:  straight 3  @  (35, 30, 'SW') ==> (32, 27, 'SW')
+Move made:  straight 3  @  (32, 27, 'SW') ==> (29, 24, 'SW')
+Move made:  straight 3  @  (29, 24, 'SW') ==> (26, 21, 'SW')
+Move made:  straight 2  @  (26, 21, 'SW') ==> (24, 19, 'SW')
+Move made:  right 1  @  (24, 19, 'SW') ==> (23, 19, 'W')
+Move made:  left 3  @  (23, 19, 'W') ==> (20, 16, 'SW')
+Move made:  straight 2  @  (20, 16, 'SW') ==> (18, 14, 'SW')
+Move made:  straight 3  @  (18, 14, 'SW') ==> (15, 11, 'SW')
+Move made:  straight 3  @  (15, 11, 'SW') ==> (12, 8, 'SW')
+Move made:  straight 2  @  (12, 8, 'SW') ==> (10, 6, 'SW')
+Move made:  left 3  @  (10, 6, 'SW') ==> (10, 3, 'S')
+Move made:  right 3  @  (10, 3, 'S') ==> (7, 0, 'SW')
+Move made:  straight 2  @  (7, 0, 'SW') ==> (5, -2, 'SW')
+Move made:  right 3  @  (5, -2, 'SW') ==> (2, -2, 'W')
+Move made:  right 2  @  (2, -2, 'W') ==> (0, 0, 'NW')
+Move made:  right 2  @  (0, 0, 'NW') ==> (0, 2, 'N')
+Move made:  right 3  @  (0, 2, 'N') ==> (3, 5, 'NE')
+
+Target Reached in  26  steps!
+
+Start position:  (-49, -49, 'N')
+Move made:  straight 1  @  (49, -49, 'NW') ==> (48, -48, 'NW')
+Move made:  straight 1  @  (48, -48, 'NW') ==> (47, -47, 'NW')
+Move made:  left 2  @  (47, -47, 'NW') ==> (45, -47, 'W')
+Move made:  right 3  @  (45, -47, 'W') ==> (42, -44, 'NW')
+Move made:  straight 1  @  (42, -44, 'NW') ==> (41, -43, 'NW')
+Move made:  straight 1  @  (41, -43, 'NW') ==> (40, -42, 'NW')
+Move made:  straight 1  @  (40, -42, 'NW') ==> (39, -41, 'NW')
+Move made:  right 3  @  (39, -41, 'NW') ==> (39, -38, 'N')
+Move made:  straight 2  @  (39, -38, 'N') ==> (39, -36, 'N')
+Move made:  left 3  @  (39, -36, 'N') ==> (36, -33, 'NW')
+Move made:  straight 1  @  (36, -33, 'NW') ==> (35, -32, 'NW')
+Move made:  straight 3  @  (35, -32, 'NW') ==> (32, -29, 'NW')
+Move made:  straight 2  @  (32, -29, 'NW') ==> (30, -27, 'NW')
+Move made:  left 2  @  (30, -27, 'NW') ==> (28, -27, 'W')
+Move made:  right 2  @  (28, -27, 'W') ==> (26, -25, 'NW')
+Move made:  straight 3  @  (26, -25, 'NW') ==> (23, -22, 'NW')
+Move made:  straight 3  @  (23, -22, 'NW') ==> (20, -19, 'NW')
+Move made:  straight 2  @  (20, -19, 'NW') ==> (18, -17, 'NW')
+Move made:  left 2  @  (18, -17, 'NW') ==> (16, -17, 'W')
+Move made:  right 2  @  (16, -17, 'W') ==> (14, -15, 'NW')
+Move made:  straight 2  @  (14, -15, 'NW') ==> (12, -13, 'NW')
+Move made:  straight 3  @  (12, -13, 'NW') ==> (9, -10, 'NW')
+Move made:  straight 3  @  (9, -10, 'NW') ==> (6, -7, 'NW')
+Move made:  left 3  @  (6, -7, 'NW') ==> (3, -7, 'W')
+Move made:  right 3  @  (3, -7, 'W') ==> (0, -4, 'NW')
+Move made:  right 3  @  (0, -4, 'NW') ==> (0, -1, 'N')
+Move made:  straight 3  @  (0, -1, 'N') ==> (0, 2, 'N')
+Move made:  right 3  @  (0, 2, 'N') ==> (3, 5, 'NE')
+
+Target Reached in  28  steps!
+
+Start position:  (-49, -49, 'N')
+Move made:  straight 2  @  (-49, 49, 'SE') ==> (-47, 47, 'SE')
+Move made:  straight 2  @  (-47, 47, 'SE') ==> (-45, 45, 'SE')
+Move made:  right 2  @  (-45, 45, 'SE') ==> (-45, 43, 'S')
+Move made:  straight 1  @  (-45, 43, 'S') ==> (-45, 42, 'S')
+Move made:  straight 2  @  (-45, 42, 'S') ==> (-45, 40, 'S')
+Move made:  left 1  @  (-45, 40, 'S') ==> (-44, 39, 'SE')
+Move made:  straight 2  @  (-44, 39, 'SE') ==> (-42, 37, 'SE')
+Move made:  left 1  @  (-42, 37, 'SE') ==> (-41, 37, 'E')
+Move made:  straight 3  @  (-41, 37, 'E') ==> (-38, 37, 'E')
+Move made:  right 3  @  (-38, 37, 'E') ==> (-35, 34, 'SE')
+Move made:  straight 3  @  (-35, 34, 'SE') ==> (-32, 31, 'SE')
+Move made:  left 2  @  (-32, 31, 'SE') ==> (-30, 31, 'E')
+Move made:  right 2  @  (-30, 31, 'E') ==> (-28, 29, 'SE')
+Move made:  straight 3  @  (-28, 29, 'SE') ==> (-25, 26, 'SE')
+Move made:  straight 3  @  (-25, 26, 'SE') ==> (-22, 23, 'SE')
+Move made:  right 2  @  (-22, 23, 'SE') ==> (-22, 21, 'S')
+Move made:  straight 2  @  (-22, 21, 'S') ==> (-22, 19, 'S')
+Move made:  left 3  @  (-22, 19, 'S') ==> (-19, 16, 'SE')
+Move made:  left 2  @  (-19, 16, 'SE') ==> (-17, 16, 'E')
+Move made:  right 3  @  (-17, 16, 'E') ==> (-14, 13, 'SE')
+Move made:  straight 3  @  (-14, 13, 'SE') ==> (-11, 10, 'SE')
+Move made:  left 2  @  (-11, 10, 'SE') ==> (-9, 10, 'E')
+Move made:  straight 2  @  (-9, 10, 'E') ==> (-7, 10, 'E')
+Move made:  right 3  @  (-7, 10, 'E') ==> (-4, 7, 'SE')
+Move made:  straight 3  @  (-4, 7, 'SE') ==> (-1, 4, 'SE')
+Move made:  left 3  @  (-1, 4, 'SE') ==> (2, 4, 'E')
+Move made:  left 1  @  (2, 4, 'E') ==> (3, 5, 'NE')
+
+Target Reached in  27  steps!
+
+Start position:  (-49, -49, 'N')
+Move made:  straight 1  @  (-49, -49, 'NE') ==> (-48, -48, 'NE')
+Move made:  straight 2  @  (-48, -48, 'NE') ==> (-46, -46, 'NE')
+Move made:  straight 2  @  (-46, -46, 'NE') ==> (-44, -44, 'NE')
+Move made:  straight 1  @  (-44, -44, 'NE') ==> (-43, -43, 'NE')
+Move made:  left 2  @  (-43, -43, 'NE') ==> (-43, -41, 'N')
+Move made:  right 1  @  (-43, -41, 'N') ==> (-42, -40, 'NE')
+Move made:  straight 2  @  (-42, -40, 'NE') ==> (-40, -38, 'NE')
+Move made:  left 2  @  (-40, -38, 'NE') ==> (-40, -36, 'N')
+Move made:  straight 1  @  (-40, -36, 'N') ==> (-40, -35, 'N')
+Move made:  right 3  @  (-40, -35, 'N') ==> (-37, -32, 'NE')
+Move made:  straight 2  @  (-37, -32, 'NE') ==> (-35, -30, 'NE')
+Move made:  straight 2  @  (-35, -30, 'NE') ==> (-33, -28, 'NE')
+Move made:  straight 3  @  (-33, -28, 'NE') ==> (-30, -25, 'NE')
+Move made:  straight 3  @  (-30, -25, 'NE') ==> (-27, -22, 'NE')
+Move made:  straight 3  @  (-27, -22, 'NE') ==> (-24, -19, 'NE')
+Move made:  straight 1  @  (-24, -19, 'NE') ==> (-23, -18, 'NE')
+Move made:  straight 3  @  (-23, -18, 'NE') ==> (-20, -15, 'NE')
+Move made:  straight 2  @  (-20, -15, 'NE') ==> (-18, -13, 'NE')
+Move made:  right 3  @  (-18, -13, 'NE') ==> (-15, -13, 'E')
+Move made:  left 3  @  (-15, -13, 'E') ==> (-12, -10, 'NE')
+Move made:  straight 3  @  (-12, -10, 'NE') ==> (-9, -7, 'NE')
+Move made:  straight 3  @  (-9, -7, 'NE') ==> (-6, -4, 'NE')
+Move made:  straight 3  @  (-6, -4, 'NE') ==> (-3, -1, 'NE')
+Move made:  straight 3  @  (-3, -1, 'NE') ==> (0, 2, 'NE')
+Move made:  straight 3  @  (0, 2, 'NE') ==> (3, 5, 'NE')
+
+Target Reached in  25  steps!
+
+
+Results - Target: (3, 5, 'NE')
+Start Position           Policy Iteration         Monte Carlo
+(49, 49, 'SW')           20                       26
+(49, -49, 'NW')          19                       28
+(-49, 49, 'SE')          18                       27
+(-49, -49, 'NE')         19                       25
